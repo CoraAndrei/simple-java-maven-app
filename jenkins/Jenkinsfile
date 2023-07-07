@@ -23,11 +23,5 @@ pipeline {
                 echo "Fourth Step"
             }
         }
-        stage("Complete") {
-            steps {
-                echo "Build is complete!"
-            }
-        }
-
     }
 }
